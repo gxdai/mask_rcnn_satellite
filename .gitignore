@@ -1,0 +1,86 @@
+# Data files and directories common in repo root
+datasets/
+001/
+logs/
+*.h5
+results/
+temp/
+test/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+samples/shapes/001_result_20181223.zip
+# VS Studio Code
+.vscode
+
+# PyCharm
+.idea/
+
+# Dropbox
+.dropbox.attr
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# dotenv
+.env
+
+# virtualenv
+.venv
+venv/
+ENV/
+
+# .tar.gz
+*.tar.gz
+# .jpg .png
+samples/*.jpg
+samples/*.png
+# cudnn
+samples/cudnn6/
+*.png
+# image directory
+samples/sliced_img/
+samples/sliced_mask/
+samples/sliced_mask2/
+samples/shapes/mask_annotation/
+samples/shapes/*.png
+samples/shapes/*.jpg
+
+samples/shapes/Colors
+samples/shapes/Editing
+samples/shapes/General
+samples/shapes/Helper
+samples/shapes/Moving
+samples/shapes/Spell
+samples/shapes/Text
+samples/output
+samples/shapes/log.txt
+001result.zip
